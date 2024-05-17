@@ -1,0 +1,37 @@
+git clone // "Clonar proyecto"
+git status // "Verificar estado de repositorio"
+
+git pull // "Actualizar cambios que han realizado otros usuarios desde el servidor a local"
+git remote -v // "Mostrar a que repositorios estoy conectado"
+git branch -a // "Ver las branchs del proyecto"
+git switch calidadjlr // "Cambiar a otra branch"
+
+git config --list //"Configuraciones"
+git config --global --list //"Configuraciones locales"
+
+Antes de subir cambios poner archivos en estado "stage" preparado
+
+git add .\README.md "Para preparar archivos"
+git commit -m "Mi primer cambio a README"  // Subir cambio con mensaje
+git push // Cambios pendientes de subir al servidor, los actualiza
+
+git log // Historial de cambios
+git log --graph --oneline // Historial de cambios mejor visualmente
+
+git mv "nombre original" "nombre nuevo" // Cambiar nombre archivos 
+git revert "codigo commit a revertir" // Revertir commit
+
+git reset --hard origin/main // 
+git tag "nombre tag" "código commit" // Crear tag , con el cúal se puede crear un release
+
+Commit amend
+
+Pull  request unifica cambios en dos branch
+
+
+https://github.com/OmarVasquez/caption-this-dian1.git
+Estados: 1.Working directory 2. Staging 3.Servidor
+
+https://github.com/jonathanlr87/github-games.git
+
+bfca52b9689e8da2e820a0d8cd6c8a9a48ff6d4c
